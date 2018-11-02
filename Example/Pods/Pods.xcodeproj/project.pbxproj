@@ -1,0 +1,929 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1BFD3B836C04C6946CC4CF9A9C7B7FB6 /* CTMediator.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FCF06187E81AF3C8B60ED36F38E4371C /* CTMediator.framework */; };
+		1F3AB48B790349971623E34565F09B4C /* CTMediator.m in Sources */ = {isa = PBXBuildFile; fileRef = BED5ED2424392EA86480465AD716C400 /* CTMediator.m */; };
+		3572B8C129DAF046A7AFEE333A959D44 /* Pods-SalesManLogin_Category_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 3977BBE67AD07D817E21BDA24DCADE84 /* Pods-SalesManLogin_Category_Tests-dummy.m */; };
+		4276D9C94B010809216BB2EB1539FA0C /* CTMediator-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = E879E848EC0FE5B1168297828B34AA66 /* CTMediator-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5E295653430FD6804EADFF5DD9DA2517 /* SalesManLogin_Category-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 29902C082A752784C5B93BF41C2E5B35 /* SalesManLogin_Category-dummy.m */; };
+		60419C90770733280195DFBA237A7F81 /* Pods-SalesManLogin_Category_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 37F4643962DF1FFAC560D9998AF4AFBF /* Pods-SalesManLogin_Category_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		633A89236E00C782D27036CEBB5912C7 /* Pods-SalesManLogin_Category_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = C6BABA9C69722C5D582A33E82E8CC76C /* Pods-SalesManLogin_Category_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		7306F982BB67F5E0AF7F4B05982A1F36 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4BFCBE4EA1BE6C5230E5C8F750269C07 /* Foundation.framework */; };
+		7AE28317D49382AF84FAE957B8D09022 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4BFCBE4EA1BE6C5230E5C8F750269C07 /* Foundation.framework */; };
+		8C55E22C0A6FDA04E072EDE20BFE94F9 /* SalesManLogin_Category-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 679C99B5CDEF4C408DFF81CFBEDC12B0 /* SalesManLogin_Category-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9980D1F1A0D1B96EDA265B24BC6B544A /* CTMediator.h in Headers */ = {isa = PBXBuildFile; fileRef = 55F1EE2E62C9E1D01AE82E2FB1B763D0 /* CTMediator.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9F1AE432D039010A0AA583DD4E682415 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4BFCBE4EA1BE6C5230E5C8F750269C07 /* Foundation.framework */; };
+		B7AC55A4081CA7DE2A3F979F30FF62E1 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B9242C579330E2CBBC7E3B63EAE139B0 /* UIKit.framework */; };
+		BC5B2F77399D26DDAD9ACDF3307B3E09 /* SalesManLogin_Category.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2208005C5499F1F5973ED283F99B10C4 /* SalesManLogin_Category.swift */; };
+		D399A5B6B5A03B7F41645047701E849D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4BFCBE4EA1BE6C5230E5C8F750269C07 /* Foundation.framework */; };
+		DBD626CF78E5FC72296E2C9B02A57FDB /* Pods-SalesManLogin_Category_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 79CECEB758716EFA7619870865F802E2 /* Pods-SalesManLogin_Category_Example-dummy.m */; };
+		F4569DA131C568C785D747146B842D4D /* CTMediator-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = E1341D6765CC84A2AB53DB3A7D9C8315 /* CTMediator-dummy.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		7193F905569CDF5C0578900EFF06A9D5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 685EB18B6B251DBD96963DFED5E895BB;
+			remoteInfo = CTMediator;
+		};
+		8FB8827010779735F97A2E4C5868C176 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 48CCBBB9FC815D5ED6DDEA2BD6DE2FF5;
+			remoteInfo = SalesManLogin_Category;
+		};
+		C70C62B6D05379BDCBF5D5DF6D33F09A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 685EB18B6B251DBD96963DFED5E895BB;
+			remoteInfo = CTMediator;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		00783527034F3AF9A20ADA13EBB171E4 /* CTMediator.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = CTMediator.framework; path = CTMediator.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		11EE7540661BE2ADFA1940F01384B8CE /* Pods_SalesManLogin_Category_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_SalesManLogin_Category_Tests.framework; path = "Pods-SalesManLogin_Category_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		1BAF059C96CF6AD847D4F96AEB85D765 /* Pods-SalesManLogin_Category_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-SalesManLogin_Category_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		2208005C5499F1F5973ED283F99B10C4 /* SalesManLogin_Category.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SalesManLogin_Category.swift; path = SalesManLogin_Category/Classes/SalesManLogin_Category.swift; sourceTree = "<group>"; };
+		266ED1F366262CA67C90267A3FB39BC6 /* Pods-SalesManLogin_Category_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SalesManLogin_Category_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		29902C082A752784C5B93BF41C2E5B35 /* SalesManLogin_Category-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "SalesManLogin_Category-dummy.m"; sourceTree = "<group>"; };
+		31112D45B8CEA1F20B88DAF288A76F63 /* CTMediator.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = CTMediator.xcconfig; sourceTree = "<group>"; };
+		37F4643962DF1FFAC560D9998AF4AFBF /* Pods-SalesManLogin_Category_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-SalesManLogin_Category_Example-umbrella.h"; sourceTree = "<group>"; };
+		385CBCD9D26E92ABECA78E7A1FFF6D22 /* SalesManLogin_Category.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SalesManLogin_Category.xcconfig; sourceTree = "<group>"; };
+		3977BBE67AD07D817E21BDA24DCADE84 /* Pods-SalesManLogin_Category_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-SalesManLogin_Category_Tests-dummy.m"; sourceTree = "<group>"; };
+		4215DAFEB57050FECF0A1B1BDCD8EC06 /* SalesManLogin_Category-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SalesManLogin_Category-prefix.pch"; sourceTree = "<group>"; };
+		451C0DFC3AE99A1C1EF3CB967031DB8F /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		46385FA37DED42117322380F5E40F5E6 /* Pods-SalesManLogin_Category_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-SalesManLogin_Category_Example-resources.sh"; sourceTree = "<group>"; };
+		4823F985D0231CA49E7B2F1E5C85DABF /* Pods-SalesManLogin_Category_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SalesManLogin_Category_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		4BFCBE4EA1BE6C5230E5C8F750269C07 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		4DCDCD6C06869B3C2FF13907780E008E /* CTMediator.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = CTMediator.modulemap; sourceTree = "<group>"; };
+		5291BE042BA30B733FB8A6EBA9BBEE7B /* CTMediator-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "CTMediator-prefix.pch"; sourceTree = "<group>"; };
+		55F1EE2E62C9E1D01AE82E2FB1B763D0 /* CTMediator.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = CTMediator.h; path = CTMediator/CTMediator/CTMediator.h; sourceTree = "<group>"; };
+		59EB67F8CE229317D72034FBA5FFDFA9 /* SalesManLogin_Category.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; path = SalesManLogin_Category.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		679C99B5CDEF4C408DFF81CFBEDC12B0 /* SalesManLogin_Category-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SalesManLogin_Category-umbrella.h"; sourceTree = "<group>"; };
+		6D61CA48580911C541103317756AE692 /* SalesManLogin_Category.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = SalesManLogin_Category.framework; path = SalesManLogin_Category.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		6DC9B261D033C738DE9B4B366A6F8CE1 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		6F54C5FA55F7E17E30A1F3257A3C5006 /* Pods-SalesManLogin_Category_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-SalesManLogin_Category_Tests-resources.sh"; sourceTree = "<group>"; };
+		7151BA77DBE1B003CD4F57C09C0E7903 /* SalesManLogin_Category.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = SalesManLogin_Category.modulemap; sourceTree = "<group>"; };
+		738E6A0A72CB8B15BA8F3A63DB0DCBE9 /* Pods-SalesManLogin_Category_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-SalesManLogin_Category_Tests-frameworks.sh"; sourceTree = "<group>"; };
+		760C2D05474696F930DFECB063E086C0 /* Pods-SalesManLogin_Category_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-SalesManLogin_Category_Example-frameworks.sh"; sourceTree = "<group>"; };
+		79CECEB758716EFA7619870865F802E2 /* Pods-SalesManLogin_Category_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-SalesManLogin_Category_Example-dummy.m"; sourceTree = "<group>"; };
+		80EF16A1C36B03D558C353A873827ED5 /* Pods-SalesManLogin_Category_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-SalesManLogin_Category_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		865C3D6847154565F947AE8E9DCA49F7 /* Pods-SalesManLogin_Category_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-SalesManLogin_Category_Tests.modulemap"; sourceTree = "<group>"; };
+		88233934C818DF8A43E64580C1EE4F43 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8F0F3C0594E190A4A6F7DB5742031B0C /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		94C602E8F03D3BDC10868C71A6C6B130 /* Pods-SalesManLogin_Category_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-SalesManLogin_Category_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		999423A72209E885D00E664BA5F93E4E /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		9DBB7BE4371A9CF3B1FE6F6EE1956412 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9F8AC02F337EE4390AB16DDF085D2A3A /* Pods-SalesManLogin_Category_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SalesManLogin_Category_Example.release.xcconfig"; sourceTree = "<group>"; };
+		AB8F2DBECF734C440EC45B15742380EA /* Pods_SalesManLogin_Category_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_SalesManLogin_Category_Example.framework; path = "Pods-SalesManLogin_Category_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		ADE69DC60A841BFC7A0190F79FC6437E /* Pods-SalesManLogin_Category_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-SalesManLogin_Category_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		B8E934F4B2DCB12F610CFC9BBAD6ABE6 /* Pods-SalesManLogin_Category_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-SalesManLogin_Category_Example.modulemap"; sourceTree = "<group>"; };
+		B9242C579330E2CBBC7E3B63EAE139B0 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
+		BED5ED2424392EA86480465AD716C400 /* CTMediator.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = CTMediator.m; path = CTMediator/CTMediator/CTMediator.m; sourceTree = "<group>"; };
+		C6BABA9C69722C5D582A33E82E8CC76C /* Pods-SalesManLogin_Category_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-SalesManLogin_Category_Tests-umbrella.h"; sourceTree = "<group>"; };
+		E1341D6765CC84A2AB53DB3A7D9C8315 /* CTMediator-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "CTMediator-dummy.m"; sourceTree = "<group>"; };
+		E879E848EC0FE5B1168297828B34AA66 /* CTMediator-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "CTMediator-umbrella.h"; sourceTree = "<group>"; };
+		EBB698A75995737FA1E1ED974CC17F1E /* Pods-SalesManLogin_Category_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SalesManLogin_Category_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		FCF06187E81AF3C8B60ED36F38E4371C /* CTMediator.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = CTMediator.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		29222A8B9C2935D71BA5B7704BEA5F7D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1BFD3B836C04C6946CC4CF9A9C7B7FB6 /* CTMediator.framework in Frameworks */,
+				7306F982BB67F5E0AF7F4B05982A1F36 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9C7E6BFF6DD1ECDB9D01D496C87D7935 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7AE28317D49382AF84FAE957B8D09022 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AF57AE4C0B3CA25F26FDFC9980E60EEB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9F1AE432D039010A0AA583DD4E682415 /* Foundation.framework in Frameworks */,
+				B7AC55A4081CA7DE2A3F979F30FF62E1 /* UIKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FD905F15707DC83482B83047B7AC047D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D399A5B6B5A03B7F41645047701E849D /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		11C2BB2C00A863FC147739B4E8FA7A8D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				00783527034F3AF9A20ADA13EBB171E4 /* CTMediator.framework */,
+				AB8F2DBECF734C440EC45B15742380EA /* Pods_SalesManLogin_Category_Example.framework */,
+				11EE7540661BE2ADFA1940F01384B8CE /* Pods_SalesManLogin_Category_Tests.framework */,
+				6D61CA48580911C541103317756AE692 /* SalesManLogin_Category.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		16216A3033A9965DA5C0FC9A497AB9F5 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				56C2F0F3E01D93369D829ADE4BF2E5F0 /* CTMediator */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		1E43F5AE91F746B4AE3E262EFBBF0EE6 /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				563675955B0E83F66386EDA63365397D /* SalesManLogin_Category */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		23F6A59214E44BF7B92C32C407EF9D70 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				4BFCBE4EA1BE6C5230E5C8F750269C07 /* Foundation.framework */,
+				B9242C579330E2CBBC7E3B63EAE139B0 /* UIKit.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		563675955B0E83F66386EDA63365397D /* SalesManLogin_Category */ = {
+			isa = PBXGroup;
+			children = (
+				2208005C5499F1F5973ED283F99B10C4 /* SalesManLogin_Category.swift */,
+				D045ADB3D331055C9D503668FDFD36CF /* Pod */,
+				9D0C12E62E4DC3A30BA9CDD28B2DA5C6 /* Support Files */,
+			);
+			name = SalesManLogin_Category;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		56C2F0F3E01D93369D829ADE4BF2E5F0 /* CTMediator */ = {
+			isa = PBXGroup;
+			children = (
+				55F1EE2E62C9E1D01AE82E2FB1B763D0 /* CTMediator.h */,
+				BED5ED2424392EA86480465AD716C400 /* CTMediator.m */,
+				D9786FB4CCA1CE0A1CD47E5E2E837569 /* Support Files */,
+			);
+			name = CTMediator;
+			path = CTMediator;
+			sourceTree = "<group>";
+		};
+		7C1C54E5C0338208FF11DF2D6A81BF5E /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				FCF06187E81AF3C8B60ED36F38E4371C /* CTMediator.framework */,
+				23F6A59214E44BF7B92C32C407EF9D70 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
+				1E43F5AE91F746B4AE3E262EFBBF0EE6 /* Development Pods */,
+				7C1C54E5C0338208FF11DF2D6A81BF5E /* Frameworks */,
+				16216A3033A9965DA5C0FC9A497AB9F5 /* Pods */,
+				11C2BB2C00A863FC147739B4E8FA7A8D /* Products */,
+				D93722B5A231F4402D474872BA739D87 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		9D0C12E62E4DC3A30BA9CDD28B2DA5C6 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				8F0F3C0594E190A4A6F7DB5742031B0C /* Info.plist */,
+				7151BA77DBE1B003CD4F57C09C0E7903 /* SalesManLogin_Category.modulemap */,
+				385CBCD9D26E92ABECA78E7A1FFF6D22 /* SalesManLogin_Category.xcconfig */,
+				29902C082A752784C5B93BF41C2E5B35 /* SalesManLogin_Category-dummy.m */,
+				4215DAFEB57050FECF0A1B1BDCD8EC06 /* SalesManLogin_Category-prefix.pch */,
+				679C99B5CDEF4C408DFF81CFBEDC12B0 /* SalesManLogin_Category-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/SalesManLogin_Category";
+			sourceTree = "<group>";
+		};
+		CDED2E69FB54F22B0782008ECB0C0E3B /* Pods-SalesManLogin_Category_Example */ = {
+			isa = PBXGroup;
+			children = (
+				88233934C818DF8A43E64580C1EE4F43 /* Info.plist */,
+				B8E934F4B2DCB12F610CFC9BBAD6ABE6 /* Pods-SalesManLogin_Category_Example.modulemap */,
+				1BAF059C96CF6AD847D4F96AEB85D765 /* Pods-SalesManLogin_Category_Example-acknowledgements.markdown */,
+				94C602E8F03D3BDC10868C71A6C6B130 /* Pods-SalesManLogin_Category_Example-acknowledgements.plist */,
+				79CECEB758716EFA7619870865F802E2 /* Pods-SalesManLogin_Category_Example-dummy.m */,
+				760C2D05474696F930DFECB063E086C0 /* Pods-SalesManLogin_Category_Example-frameworks.sh */,
+				46385FA37DED42117322380F5E40F5E6 /* Pods-SalesManLogin_Category_Example-resources.sh */,
+				37F4643962DF1FFAC560D9998AF4AFBF /* Pods-SalesManLogin_Category_Example-umbrella.h */,
+				4823F985D0231CA49E7B2F1E5C85DABF /* Pods-SalesManLogin_Category_Example.debug.xcconfig */,
+				9F8AC02F337EE4390AB16DDF085D2A3A /* Pods-SalesManLogin_Category_Example.release.xcconfig */,
+			);
+			name = "Pods-SalesManLogin_Category_Example";
+			path = "Target Support Files/Pods-SalesManLogin_Category_Example";
+			sourceTree = "<group>";
+		};
+		D045ADB3D331055C9D503668FDFD36CF /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				999423A72209E885D00E664BA5F93E4E /* LICENSE */,
+				6DC9B261D033C738DE9B4B366A6F8CE1 /* README.md */,
+				59EB67F8CE229317D72034FBA5FFDFA9 /* SalesManLogin_Category.podspec */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
+		D93722B5A231F4402D474872BA739D87 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				CDED2E69FB54F22B0782008ECB0C0E3B /* Pods-SalesManLogin_Category_Example */,
+				F61717EE5A50E3EF6F5F0DEEBBF055DE /* Pods-SalesManLogin_Category_Tests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		D9786FB4CCA1CE0A1CD47E5E2E837569 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				4DCDCD6C06869B3C2FF13907780E008E /* CTMediator.modulemap */,
+				31112D45B8CEA1F20B88DAF288A76F63 /* CTMediator.xcconfig */,
+				E1341D6765CC84A2AB53DB3A7D9C8315 /* CTMediator-dummy.m */,
+				5291BE042BA30B733FB8A6EBA9BBEE7B /* CTMediator-prefix.pch */,
+				E879E848EC0FE5B1168297828B34AA66 /* CTMediator-umbrella.h */,
+				9DBB7BE4371A9CF3B1FE6F6EE1956412 /* Info.plist */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/CTMediator";
+			sourceTree = "<group>";
+		};
+		F61717EE5A50E3EF6F5F0DEEBBF055DE /* Pods-SalesManLogin_Category_Tests */ = {
+			isa = PBXGroup;
+			children = (
+				451C0DFC3AE99A1C1EF3CB967031DB8F /* Info.plist */,
+				865C3D6847154565F947AE8E9DCA49F7 /* Pods-SalesManLogin_Category_Tests.modulemap */,
+				ADE69DC60A841BFC7A0190F79FC6437E /* Pods-SalesManLogin_Category_Tests-acknowledgements.markdown */,
+				80EF16A1C36B03D558C353A873827ED5 /* Pods-SalesManLogin_Category_Tests-acknowledgements.plist */,
+				3977BBE67AD07D817E21BDA24DCADE84 /* Pods-SalesManLogin_Category_Tests-dummy.m */,
+				738E6A0A72CB8B15BA8F3A63DB0DCBE9 /* Pods-SalesManLogin_Category_Tests-frameworks.sh */,
+				6F54C5FA55F7E17E30A1F3257A3C5006 /* Pods-SalesManLogin_Category_Tests-resources.sh */,
+				C6BABA9C69722C5D582A33E82E8CC76C /* Pods-SalesManLogin_Category_Tests-umbrella.h */,
+				EBB698A75995737FA1E1ED974CC17F1E /* Pods-SalesManLogin_Category_Tests.debug.xcconfig */,
+				266ED1F366262CA67C90267A3FB39BC6 /* Pods-SalesManLogin_Category_Tests.release.xcconfig */,
+			);
+			name = "Pods-SalesManLogin_Category_Tests";
+			path = "Target Support Files/Pods-SalesManLogin_Category_Tests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		000F2AAA018022EAC017735186225EC4 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4276D9C94B010809216BB2EB1539FA0C /* CTMediator-umbrella.h in Headers */,
+				9980D1F1A0D1B96EDA265B24BC6B544A /* CTMediator.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0A35DAF896C43FD9F43039D02E1BF5D5 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				633A89236E00C782D27036CEBB5912C7 /* Pods-SalesManLogin_Category_Tests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		446C100FC91D17F3BB74EF2C6B0C86E8 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				60419C90770733280195DFBA237A7F81 /* Pods-SalesManLogin_Category_Example-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BBFFCB62A7A29E2B65EBF8F44BA61468 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8C55E22C0A6FDA04E072EDE20BFE94F9 /* SalesManLogin_Category-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		3629F4DD76AFA8EB1ACA6EAC50A316DF /* Pods-SalesManLogin_Category_Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E25B97D35C66428BD4B28C39380C41F7 /* Build configuration list for PBXNativeTarget "Pods-SalesManLogin_Category_Tests" */;
+			buildPhases = (
+				5C22A8535C8ADE16FDDC327E8A0687E5 /* Sources */,
+				FD905F15707DC83482B83047B7AC047D /* Frameworks */,
+				0A35DAF896C43FD9F43039D02E1BF5D5 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-SalesManLogin_Category_Tests";
+			productName = "Pods-SalesManLogin_Category_Tests";
+			productReference = 11EE7540661BE2ADFA1940F01384B8CE /* Pods_SalesManLogin_Category_Tests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		48CCBBB9FC815D5ED6DDEA2BD6DE2FF5 /* SalesManLogin_Category */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E996BED303E4875ECDF4EA6AF6DF0045 /* Build configuration list for PBXNativeTarget "SalesManLogin_Category" */;
+			buildPhases = (
+				854203157072722AF3C1677A2AF70F79 /* Sources */,
+				29222A8B9C2935D71BA5B7704BEA5F7D /* Frameworks */,
+				BBFFCB62A7A29E2B65EBF8F44BA61468 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BA9B01A21CA2663B30C002B6E4F65BDB /* PBXTargetDependency */,
+			);
+			name = SalesManLogin_Category;
+			productName = SalesManLogin_Category;
+			productReference = 6D61CA48580911C541103317756AE692 /* SalesManLogin_Category.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		685EB18B6B251DBD96963DFED5E895BB /* CTMediator */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 67A7DBAB793AE14E5B11F08DE3A08B40 /* Build configuration list for PBXNativeTarget "CTMediator" */;
+			buildPhases = (
+				9C950E5127B4AA5235ABEC3C19ADC860 /* Sources */,
+				AF57AE4C0B3CA25F26FDFC9980E60EEB /* Frameworks */,
+				000F2AAA018022EAC017735186225EC4 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CTMediator;
+			productName = CTMediator;
+			productReference = 00783527034F3AF9A20ADA13EBB171E4 /* CTMediator.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		D6F3DF8D3701C3D97C76B98DD75DD7EF /* Pods-SalesManLogin_Category_Example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FC31498A24069B1FC25E9062FE910CC0 /* Build configuration list for PBXNativeTarget "Pods-SalesManLogin_Category_Example" */;
+			buildPhases = (
+				498CA6143412A7F6AB8E5FDC35F6E3C6 /* Sources */,
+				9C7E6BFF6DD1ECDB9D01D496C87D7935 /* Frameworks */,
+				446C100FC91D17F3BB74EF2C6B0C86E8 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				0B286023D8DFB966014904348E95F667 /* PBXTargetDependency */,
+				743F6E002CB27D997C86999055417092 /* PBXTargetDependency */,
+			);
+			name = "Pods-SalesManLogin_Category_Example";
+			productName = "Pods-SalesManLogin_Category_Example";
+			productReference = AB8F2DBECF734C440EC45B15742380EA /* Pods_SalesManLogin_Category_Example.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0930;
+				LastUpgradeCheck = 0930;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = 11C2BB2C00A863FC147739B4E8FA7A8D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				685EB18B6B251DBD96963DFED5E895BB /* CTMediator */,
+				D6F3DF8D3701C3D97C76B98DD75DD7EF /* Pods-SalesManLogin_Category_Example */,
+				3629F4DD76AFA8EB1ACA6EAC50A316DF /* Pods-SalesManLogin_Category_Tests */,
+				48CCBBB9FC815D5ED6DDEA2BD6DE2FF5 /* SalesManLogin_Category */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		498CA6143412A7F6AB8E5FDC35F6E3C6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DBD626CF78E5FC72296E2C9B02A57FDB /* Pods-SalesManLogin_Category_Example-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5C22A8535C8ADE16FDDC327E8A0687E5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3572B8C129DAF046A7AFEE333A959D44 /* Pods-SalesManLogin_Category_Tests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		854203157072722AF3C1677A2AF70F79 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5E295653430FD6804EADFF5DD9DA2517 /* SalesManLogin_Category-dummy.m in Sources */,
+				BC5B2F77399D26DDAD9ACDF3307B3E09 /* SalesManLogin_Category.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9C950E5127B4AA5235ABEC3C19ADC860 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F4569DA131C568C785D747146B842D4D /* CTMediator-dummy.m in Sources */,
+				1F3AB48B790349971623E34565F09B4C /* CTMediator.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		0B286023D8DFB966014904348E95F667 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = CTMediator;
+			target = 685EB18B6B251DBD96963DFED5E895BB /* CTMediator */;
+			targetProxy = C70C62B6D05379BDCBF5D5DF6D33F09A /* PBXContainerItemProxy */;
+		};
+		743F6E002CB27D997C86999055417092 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = SalesManLogin_Category;
+			target = 48CCBBB9FC815D5ED6DDEA2BD6DE2FF5 /* SalesManLogin_Category */;
+			targetProxy = 8FB8827010779735F97A2E4C5868C176 /* PBXContainerItemProxy */;
+		};
+		BA9B01A21CA2663B30C002B6E4F65BDB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = CTMediator;
+			target = 685EB18B6B251DBD96963DFED5E895BB /* CTMediator */;
+			targetProxy = 7193F905569CDF5C0578900EFF06A9D5 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		06768AD76939A3C188DEE1B3C1A00067 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 31112D45B8CEA1F20B88DAF288A76F63 /* CTMediator.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/CTMediator/CTMediator-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/CTMediator/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/CTMediator/CTMediator.modulemap";
+				PRODUCT_NAME = CTMediator;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		3CA3C06B80DB07AE16B9577EE80EA6FE /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 31112D45B8CEA1F20B88DAF288A76F63 /* CTMediator.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/CTMediator/CTMediator-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/CTMediator/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/CTMediator/CTMediator.modulemap";
+				PRODUCT_NAME = CTMediator;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		5011B865762FC0C0A28ECEC4CB63DC68 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		6C258DA90D1AAB3515B18C9CAC61C36E /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 266ED1F366262CA67C90267A3FB39BC6 /* Pods-SalesManLogin_Category_Tests.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-SalesManLogin_Category_Tests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-SalesManLogin_Category_Tests/Pods-SalesManLogin_Category_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_SalesManLogin_Category_Tests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		6D2DCDDBD3A520208B86EC50FB9D8E08 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 385CBCD9D26E92ABECA78E7A1FFF6D22 /* SalesManLogin_Category.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/SalesManLogin_Category/SalesManLogin_Category-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/SalesManLogin_Category/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/SalesManLogin_Category/SalesManLogin_Category.modulemap";
+				PRODUCT_NAME = SalesManLogin_Category;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		827269710C98D60C14D46BC6AF9BF728 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		9ABB5D022EE4994FE5740082CC425F02 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9F8AC02F337EE4390AB16DDF085D2A3A /* Pods-SalesManLogin_Category_Example.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-SalesManLogin_Category_Example/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-SalesManLogin_Category_Example/Pods-SalesManLogin_Category_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_SalesManLogin_Category_Example;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		ADDBD4747E18D27279A0E8D4B192121F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = EBB698A75995737FA1E1ED974CC17F1E /* Pods-SalesManLogin_Category_Tests.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-SalesManLogin_Category_Tests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-SalesManLogin_Category_Tests/Pods-SalesManLogin_Category_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_SalesManLogin_Category_Tests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		FC7E29D7D2B7DBADE2FE1E29F2BE3A56 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4823F985D0231CA49E7B2F1E5C85DABF /* Pods-SalesManLogin_Category_Example.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-SalesManLogin_Category_Example/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-SalesManLogin_Category_Example/Pods-SalesManLogin_Category_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_SalesManLogin_Category_Example;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		FE5F9A0E274C87B2C3090B2AFF942246 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 385CBCD9D26E92ABECA78E7A1FFF6D22 /* SalesManLogin_Category.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/SalesManLogin_Category/SalesManLogin_Category-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/SalesManLogin_Category/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/SalesManLogin_Category/SalesManLogin_Category.modulemap";
+				PRODUCT_NAME = SalesManLogin_Category;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5011B865762FC0C0A28ECEC4CB63DC68 /* Debug */,
+				827269710C98D60C14D46BC6AF9BF728 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		67A7DBAB793AE14E5B11F08DE3A08B40 /* Build configuration list for PBXNativeTarget "CTMediator" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				06768AD76939A3C188DEE1B3C1A00067 /* Debug */,
+				3CA3C06B80DB07AE16B9577EE80EA6FE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E25B97D35C66428BD4B28C39380C41F7 /* Build configuration list for PBXNativeTarget "Pods-SalesManLogin_Category_Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ADDBD4747E18D27279A0E8D4B192121F /* Debug */,
+				6C258DA90D1AAB3515B18C9CAC61C36E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E996BED303E4875ECDF4EA6AF6DF0045 /* Build configuration list for PBXNativeTarget "SalesManLogin_Category" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6D2DCDDBD3A520208B86EC50FB9D8E08 /* Debug */,
+				FE5F9A0E274C87B2C3090B2AFF942246 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FC31498A24069B1FC25E9062FE910CC0 /* Build configuration list for PBXNativeTarget "Pods-SalesManLogin_Category_Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FC7E29D7D2B7DBADE2FE1E29F2BE3A56 /* Debug */,
+				9ABB5D022EE4994FE5740082CC425F02 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}
