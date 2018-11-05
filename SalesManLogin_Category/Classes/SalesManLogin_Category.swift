@@ -11,7 +11,7 @@ import CTMediator
 extension CTMediator {
     public func SWLogin_ViewControler() -> UIViewController {
     let params = [
-        kCTMediatorParamsKeySwiftTargetModuleName:"XYModuleLogin"
+        kCTMediatorParamsKeySwiftTargetModuleName:"SalesManLogin"
         ] as [AnyHashable : Any]
         return self.performTarget("Login", action: "viewController", params:params, shouldCacheTarget: false) as! UIViewController
     }
