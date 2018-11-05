@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'SalesManLogin_Category'
-  s.version          = '0.1.0'
+  s.version          = '0.2.0'
   s.summary          = 'A short description of SalesManLogin_Category.'
   s.swift_version    = '4.0'
 
